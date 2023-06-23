@@ -1,8 +1,8 @@
 {
-  "name": "guessmynumber",
+  "name": "guessnumber",
   "version": "1.0.0",
   "description": "Guessing Game",
-  "main": "script.js",
+  "default": "index.html",
   "scripts": {
     "start": "parcel index.html",
     "build": "parcel build index.html --dist-dir ./dist"
@@ -10,7 +10,9 @@
   "author": "Hemanth Muppuri",
   "license": "ISC",
   "devDependencies": {
-    "parcel": "^2.9.2",
+    "parcel": "^2.9.2"
+  },
+  "dependencies": {
     "sass": "^1.63.6"
   }
 }
