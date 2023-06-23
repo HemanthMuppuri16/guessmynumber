@@ -1,0 +1,16 @@
+{
+  "name": "guessmynumber",
+  "version": "1.0.0",
+  "description": "Guessing Game",
+  "main": "script.js",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html"
+  },
+  "author": "Hemanth Muppuri",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "^2.9.2",
+    "sass": "^1.63.6"
+  }
+}
